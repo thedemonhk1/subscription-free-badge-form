@@ -1,0 +1,12 @@
+            - name: Fleek Deploy Action
+  # You may pin to the exact commit or the version.
+  # uses: FleekHQ/action-deploy@5266bdf179b96bc2d6b46248ae4ecf01639d0799
+  uses: FleekHQ/action-deploy@v1.0.2
+  with:
+    # Fleek Scoped Api Key
+    apiKey: 
+    # Path to directory where fleek site is initialized (optional)
+    workDir: # optional
+    # Commit Hash of configured git repository to deploy
+    commitHash: # optional
+          
